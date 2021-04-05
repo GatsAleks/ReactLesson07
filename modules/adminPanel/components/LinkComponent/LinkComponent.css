@@ -1,0 +1,29 @@
+.linkComponent {
+  background: rgb(102, 252, 241);
+  background: linear-gradient(
+    90deg,
+    rgba(102, 252, 241, 1) 0%,
+    rgba(0, 252, 194, 1) 100%
+  );
+  color: #202833;
+  border: 1px solid rgb(102, 252, 241);
+  font-weight: 600;
+  font-size: 12px;
+  display: block;
+  width: 90px;
+  border-radius: 3px;
+  margin: 15px;
+  padding-left: 10px;
+  text-decoration: none;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  transition-duration: 1s;
+}
+
+.linkComponent:hover {
+  background: linear-gradient(
+    -90deg,
+    rgba(32, 40, 51, 1) 0%,
+    rgb(39, 41, 49) 100%
+  );
+  color: #66fcf1;
+}
